@@ -2,7 +2,6 @@
 import { useTheme } from './ThemeContext';
 
 export default function UserAvatar() {
-  // 一行代码获取全局主题状态和方法
   const { theme, toggleTheme } = useTheme();
 
   return (
