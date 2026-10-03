@@ -33,7 +33,6 @@ export default function BaseForm() {
       setStatus("typing")
       setError(e instanceof Error ? e : new Error(String(e)))
     }
-
   }
 
   function handleTextareaChange(e: ChangeEvent<HTMLTextAreaElement>) {
